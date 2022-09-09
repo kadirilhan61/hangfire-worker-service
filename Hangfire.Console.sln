@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{436BABB0-DBF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Console", "src\Hangfire.Console\Hangfire.Console.csproj", "{C18CBFCC-955B-4B21-B698-851CC56364AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleWorkerService", "ScheduleWorkerService\ScheduleWorkerService.csproj", "{D6AE37FF-84EA-4F5D-8DA9-EFABCC4CBD92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleWorkerService", "src\ScheduleWorkerService\ScheduleWorkerService.csproj", "{D6AE37FF-84EA-4F5D-8DA9-EFABCC4CBD92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
