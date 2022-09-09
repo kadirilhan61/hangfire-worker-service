@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-WorkerService1-B9704101-3255-4DA3-83D9-801BC02E8C65</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.7.31" />
+		<PackageReference Include="Hangfire.Core" Version="1.7.31" />
+		<PackageReference Include="Hangfire.Dashboard.BasicAuthorization" Version="1.0.2" />
+		<PackageReference Include="Hangfire.SqlServer" Version="1.7.31" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\src\Hangfire.Console\Hangfire.Console.csproj" />
+	</ItemGroup>
+</Project>
